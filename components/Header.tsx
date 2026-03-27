@@ -74,7 +74,7 @@ export function Header() {
             {/* Mobile Drawer - rendered outside header to avoid stacking context issues */}
             {isOpen && (
                 <div className="lg:hidden fixed inset-0 top-16 z-[60]">
-                    <div className="absolute inset-0 bg-white dark:bg-neutral-950" />
+                    <div className="absolute inset-0 bg-white/50 dark:bg-neutral-950/50 backdrop-blur-md" />
                     <nav className="relative flex flex-col items-center gap-8 p-8 max-w-sm mx-auto animate-in slide-in-from-bottom-8">
                         {navLinks.map((link) => (
                             <Link

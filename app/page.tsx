@@ -50,6 +50,14 @@ export default function Home() {
             <FaEnvelope className="w-6 h-6" />
             <span className="sr-only">Email</span>
           </Link>
+          <a
+            href="/zarni_nway_oo_cv.pdf"
+            download="zarni_nway_oo_cv.pdf"
+            aria-label="Download CV as PDF"
+            className="flex items-center justify-center p-3 bg-secondary rounded-xl hover:bg-accent hover:text-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg"
+          >
+            <span className="text-sm font-bold tracking-wide">CV</span>
+          </a>
         </div>
 
         <Button

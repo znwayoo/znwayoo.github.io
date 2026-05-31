@@ -1,0 +1,19 @@
+---
+description: Sync downloadable CV PDF from cv-opt when user asks to grab new CV
+alwaysApply: true
+---
+
+# Grab new CV
+
+When the user says **"grab new cv"** (or similar: update CV, sync CV, refresh CV PDF):
+
+1. Copy the source file (overwrite destination):
+   ```bash
+   cp -f /Users/zno/CV/cv-opt/portfolio/zarni_nway_oo_cv.pdf /Users/zno/Portfolio/zno_portfolio/public/zarni_nway_oo_cv.pdf
+   ```
+2. Confirm both files match (same size or SHA256).
+3. Do **not** change `app/page.tsx` or add cache-busting query strings unless the user asks.
+4. Remind the user to commit and push `public/zarni_nway_oo_cv.pdf` if they want it live on GitHub Pages.
+
+**Source of truth:** `/Users/zno/CV/cv-opt/portfolio/zarni_nway_oo_cv.pdf` (cv-opt project).  
+**Site file:** `public/zarni_nway_oo_cv.pdf` (served at `/zarni_nway_oo_cv.pdf`).

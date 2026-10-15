@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     default: "Zarni Nway Oo | Data Professional",
     template: "%s | Zarni Nway Oo",
   },
-  description: "Forbes 30 Under 30 Asia. Business leader turned data professional. MSc Business Analytics at UCD Smurfit. Portfolio showcasing data science, ML, and analytics projects.",
+  description: "Forbes 30 Under 30 Asia. Business leader turned data professional. MSc in Business Analytics (First Class Honours) from UCD Smurfit, now an AI & Automation Specialist at DigiCare. Portfolio showcasing data science, ML, and analytics projects.",
   openGraph: {
     title: "Zarni Nway Oo | Data Professional",
     description: "Forbes 30 Under 30 Asia. Business leader turned data professional bridging strategy with data science.",

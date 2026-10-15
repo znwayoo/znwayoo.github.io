@@ -15,7 +15,7 @@ const milestones = [
     {
         year: "2016",
         title: "Forbes 30 Under 30 Asia",
-        description: "Recognized for innovation in technology and business operations. Secured partnerships with major convenience store chains and trained 500+ staff on the digital platform.",
+        description: "Recognised for innovation in technology and business operations. Secured partnerships with major convenience store chains and trained 500+ staff on the digital platform.",
         icon: Award,
     },
     {
@@ -33,8 +33,14 @@ const milestones = [
     {
         year: "2025 - 2026",
         title: "MSc Business Analytics",
-        description: "Currently pursuing at UCD Michael Smurfit Graduate Business School, Dublin. Studying statistical methods, optimization, and decision analytics.",
+        description: "First Class Honours from UCD Michael Smurfit Graduate Business School, Dublin. Studied statistical methods, statistical learning, optimisation, and programming for analytics in Python and SQL.",
         icon: GraduationCap,
+    },
+    {
+        year: "2026 - Present",
+        title: "AI & Automation Specialist, DigiCare",
+        description: "Automating business processes with Python and Power Automate at DigiCare, a healthcare software company behind a medication-management platform.",
+        icon: Briefcase,
     },
 ];
 

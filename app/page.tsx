@@ -34,7 +34,7 @@ export default function Home() {
           Business Leader Turned Data Professional
         </p>
         <p className="text-sm md:text-base text-muted-foreground mb-8 max-w-2xl leading-relaxed">
-          Forbes 30 Under 30 Asia. MSc Business Analytics at UCD Smurfit. Bridging business strategy with data science to drive real-world transformation.
+          Forbes 30 Under 30 Asia. MSc in Business Analytics (First Class Honours) from UCD Smurfit. Now automating business processes with Python as an AI &amp; Automation Specialist at DigiCare.
         </p>
 
         <div className="flex items-center gap-6 mb-12">
